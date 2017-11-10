@@ -12,6 +12,8 @@
 		DEDA557A1F741C17001BC449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDA55781F741C17001BC449 /* Main.storyboard */; };
 		DEDA557C1F741C17001BC449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDA557B1F741C17001BC449 /* Assets.xcassets */; };
 		DEDA557F1F741C17001BC449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDA557D1F741C17001BC449 /* LaunchScreen.storyboard */; };
+		DEDA55871F743B34001BC449 /* QMeeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDA55861F743B34001BC449 /* QMeeGame.swift */; };
+		DEDA55891F7443F6001BC449 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDA55881F7443F6001BC449 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEDA557B1F741C17001BC449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDA557E1F741C17001BC449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDA55801F741C17001BC449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDA55861F743B34001BC449 /* QMeeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMeeGame.swift; sourceTree = "<group>"; };
+		DEDA55881F7443F6001BC449 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				DEDA55741F741C17001BC449 /* AppDelegate.swift */,
 				DEDA55761F741C17001BC449 /* ViewController.swift */,
 				DEDA55781F741C17001BC449 /* Main.storyboard */,
+				DEDA55861F743B34001BC449 /* QMeeGame.swift */,
 				DEDA557B1F741C17001BC449 /* Assets.xcassets */,
 				DEDA557D1F741C17001BC449 /* LaunchScreen.storyboard */,
 				DEDA55801F741C17001BC449 /* Info.plist */,
+				DEDA55881F7443F6001BC449 /* GameViewController.swift */,
 			);
 			path = QMee;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDA55891F7443F6001BC449 /* GameViewController.swift in Sources */,
 				DEDA55771F741C17001BC449 /* ViewController.swift in Sources */,
 				DEDA55751F741C17001BC449 /* AppDelegate.swift in Sources */,
+				DEDA55871F743B34001BC449 /* QMeeGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
